@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ক্যাটারিং সার্ভিস | হোম ডেলিভারি খাবার</title>
+  <style>
+    body{margin:0;font-family:'Noto Sans Bengali',sans-serif;background:#f7f7f7;color:#222}
+    header{background:#fff;padding:16px 22px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+    .logo{font-size:22px;font-weight:700;color:#ff6b35}
+    nav a{margin-left:16px;text-decoration:none;color:#444;font-weight:500}
+    .btn{background:#ff6b35;color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none}
+    .hero{padding:60px 20px;display:grid;grid-template-columns:1fr 1fr;align-items:center}
+    .hero h1{font-size:36px;margin:0 0 14px}
+    .hero p{font-size:18px;color:#555;margin-bottom:18px}
+    .section{max-width:1000px;margin:40px auto;padding:0 20px}
+    h2{font-size:28px;margin-bottom:16px;color:#222}
+    .plans{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:#fff;padding:20px;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.08)}
+    .card h3{margin-top:0;color:#ff6b35}
+    .card p{color:#555}
+    form{background:#fff;padding:20px;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.08)}
+    input,textarea{width:100%;padding:12px;margin:8px 0;border:1px solid #ddd;border-radius:8px;font-size:16px}
+    footer{text-align:center;padding:22px 0;margin-top:40px;background:#fff;color:#666}
+  </style>
+</head>
+<body>
+<header>
+  <div class="logo">HomeFood</div>
+  <nav>
+    <a href="#home">হোম</a>
+    <a href="#plans">প্যাকেজ</a>
+    <a href="#skip">দিন বাদ দিন</a>
+    <a href="#contact">যোগাযোগ</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div>
+    <h1>দৈনিক ও মাসিক হোমমেড খাবার ডেলিভারি</h1>
+    <p>ব্যাচেলর, চাকরিজীবী এবং ব্যস্ত মানুষের জন্য প্রতিদিন ঘরে রান্না করা খাবার, আপনার দরজায়।</p>
+    <a href="#plans" class="btn">প্ল্যান দেখুন</a>
+  </div>
+  <img src="https://i.ibb.co/Lzg0L4B/food.png" width="100%"/>
+</section>
+
+<section class="section" id="plans">
+  <h2>মাসিক খাবার প্ল্যান</h2>
+  <div class="plans">
+    <div class="card">
+      <h3>বেসিক প্ল্যান</h3>
+      <p>৩০ দিন খাবার: ভাত, ডাল, সবজি</p>
+      <p><b>৳ ৩,৫০০</b></p>
+    </div>
+    <div class="card">
+      <h3>রেগুলার প্ল্যান</h3>
+      <p>৩০ দিন খাবার: ভাত, ডাল, সবজি, ডিম/মুরগি</p>
+      <p><b>৳ ৪,৫০০</b></p>
+    </div>
+    <div class="card">
+      <h3>প্রিমিয়াম প্ল্যান</h3>
+      <p>৩০ দিন খাবার: ভাত, ডাল, সবজি, মুরগি/গরু</p>
+      <p><b>৳ ৫,৫০০</b></p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="skip">
+  <h2>একদিন খাবার লাগবে না?</h2>
+  <form>
+    <label>নাম</label>
+    <input type="text" placeholder="আপনার নাম">
+    <label>মোবাইল নাম্বার</label>
+    <input type="text" placeholder="০১XXXXXXXXX">
+    <label>তারিখ</label>
+    <input type="date">
+    <label>কারণ (ঐচ্ছিক)</label>
+    <textarea placeholder="কারণ লিখুন"></textarea>
+    <button class="btn" type="submit">সাবমিট করুন</button>
+  </form>
+</section>
+
+<section class="section" id="contact">
+  <h2>যোগযোগ</h2>
+  <form>
+    <label>নাম</label>
+    <input type="text" placeholder="আপনার নাম">
+    <label>মোবাইল নাম্বার</label>
+    <input type="text" placeholder="০১XXXXXXXXX">
+    <label>মেসেজ</label>
+    <textarea placeholder="আপনার কথা লিখুন"></textarea>
+    <button class="btn" type="submit">মেসেজ পাঠান</button>
+  </form>
+</section>
+
+<footer>
+  © ২০২৫ HomeFood | আপনার ঘরের খাবার আপনার দরজায়
+</footer>
+
+</body>
+</html>
